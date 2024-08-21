@@ -110,6 +110,8 @@ def scanner():
                     print("%s" % packetHandler2.getRxPacketError(dxl_error))
                 else:
                     print("Dynamixel#%03d has been successfully rotated" % i)
+            
+            time.sleep(1)
 scanner()
 
 '''
